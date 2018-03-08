@@ -1,7 +1,7 @@
 # Arduino_final_project
 ## Video of the project :
 ### https://youtu.be/qDvWahnEAdI
-
+## BOM Link : https://docs.google.com/spreadsheets/d/1_GYeWjBXVv_4aekasxN6_g4DxXadq2Kq5P1_7F1olAA/edit#gid=518350444
 ## Line Follower Robot - description + making of
    A line follower robot is a robot supposed to follow a black line drawn over a white background, via the usage of multiple infrared sensors (in this case I've used a line of 8 sensors). Based on the readings from the sensors (1 means that the sensor is over a black surface, 0 means that the sensor is over a white surface) , using a PID controller (in this case I've only implemented the P, since it was enough for the DC motors that I've used) I've programmed the robot so that it follows the line.<br>
    The principle on which the infrared sensors work is the fact that an infrared sensor is basically a photodiode that emits infrared radiation paired with a sensor that receives infrared radiation and the fact that a black surface absorbs light, whilst a white surface reflects the lights, so theoretically the sensors shouldn't receive any radiation from the sensor that are covering the black line . Based on this fact, we can deduce where the robot is at all times compared to the black line.<br>
