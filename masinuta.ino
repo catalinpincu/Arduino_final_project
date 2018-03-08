@@ -108,15 +108,12 @@ void loop(){
               results.value = key_value;
             switch(results.value){
               case 0xFFA25D:
-              {
-                Serial.println("CH-");
-                break;
-              }
+              Serial.println("CH-");
+              break;
               case 0xFF629D:{
-                state=0;//motors turn off
-                Serial.println("CH");
-                break;
-              }
+              state=0;//motors turn off
+              Serial.println("CH");
+              break;}
               case 0xFFE21D:{
               state=1;//motors turn on
               Serial.println("CH+");
